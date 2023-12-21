@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width:60%;
+    margin: 0 auto;
+    height: 90vh;
+    background: rgb(255, 222, 222);
+     border-radius: 4px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* --------------------------- msg container */
+.msg-container{
+    /* border: 2px solid blue; */
+    height: 80%;
+    margin: 1em;
+    background: #fff;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+
+
+.container .msg-container .request{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container .msg-container .request p{
+    font-size: 1.6rem;
+    width:40%;
+    display:inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    background: rgb(187, 255, 187);
+    margin: 0.5em 0;
+    margin-right:0.5em;
+    padding: 0.5em;
+}
+
+.container .msg-container .response{
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .msg-container .response p{
+    font-size: 1.6rem;
+
+    width:40%;
+    display:inline-block;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 4px;
+    background: rgb(203, 203, 203);
+    margin: 0.5em 0;
+    margin-left:0.5em;
+    padding: 0.5em;
+
+
+}
+
+
+/*--------------------------------- input bar */
+.input-bar{
+    /* border: 2px solid green; */
+    /* display: flex; */
+    margin: 0 1em;
+
+}
+
+.input-bar .input{
+    /* border: 2px solid green; */
+    width: 90%;
+    border-radius: 32px;
+    height: 2em;
+    padding: 0 0.5em;
+    /* display: flex; */
+}
+
+.input-bar button{
+    width: 4em;
+    border-radius: 4px;
+    }
+
+
+
+/*     
+@media (max-width: 500px) {
+    html{
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 400px) and (max-width: 500px)  {
+    html{
+        font-size: 20px;
+    }
+    .container .msg-container .request p,
+    .container .msg-container .response p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px)  {
+    html{
+        font-size: 2px;
+    }
+    .container .msg-container .request p,
+    .container .msg-container .response p{
+        font-size: 1rem;
+    }
+    
+} */
+
+@media (max-width: 500px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+    html {
+        font-size: 3px;
+    }
+    .container .msg-container .request p,
+    .container .msg-container .response p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 1px;
+    }
+    .container .msg-container .request p,
+    .container .msg-container .response p {
+        font-size: 0.5rem;
+    }
+}
+
+/* what do you sell */

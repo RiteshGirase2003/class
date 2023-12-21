@@ -1,0 +1,119 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hi there",
+          "Greetings",
+          "Hi, how's it going?",
+          "Hello, how can I assist you?",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hey, how's everything?",
+          "What's up?",
+          "Yo!",
+          "Hi, it's nice to see you",
+          "Hey, what's happening?",
+          "Hi, how are things on your end?",
+          "Is everything fine?"
+          
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help you?",
+          "Good day! How can I assist you?",
+          "Greetings! How can I help you?",
+          "Hello, thanks for visiting! How can I assist you?",
+          "Hi there, what can I do for you today?",
+          "Hi there, how can I help you?",
+          "Hi, nice to meet you! How can I assist you today?",
+          "Hey, what's going on? How can I help you?",
+          "Hi, how's your day? How can I assist you today?",
+          "Hello, how's everything? How can I help you?",
+          "Hi, what's new? How can I assist you today?",
+          "Hey, how's life treating you? How can I help you?",
+          "Yo! What can I assist you with today?",
+          "What's up? How can I help you today?",
+          "Hi, it's nice to see you! How can I assist you today?"
+        ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye", "Farewell", "Take care", "Adios", "Ciao", "Later", "Catch you later", "Until next time"],
+          "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Goodbye, and stay safe",
+          "Later! Have a great day",
+          "Until next time, goodbye!"
+
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "good","well done","great work","Thank you", "That's helpful", "Thank's a lot!", "Appreciate it", "You're a lifesaver", "I'm grateful", "You're awesome", "Much obliged"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome!", "Glad I could assist!", "No problem!", "It's what I'm here for!", "Don't mention it!"]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+            "Do you take credit cards?",
+            "Do you accept Mastercard?",
+            "Can I pay with Paypal?",
+            "Are you having cash on delivery only?",
+            "Can I pay with a bag of magic beans?",
+            "Do you accept payments in smiles?",
+            "Is Monopoly money a valid payment method?",
+            "Can I trade my pet rock for your products?",
+            "Can I use treasure map coordinates to pay?",
+            "Do you accept payments in unicorn hugs?"
+        ],
+        "responses": [
+            "We gladly accept VISA, Mastercard, and Paypal as valid payment methods.",
+            "You can pay with most major credit cards, including VISA and Mastercard, as well as Paypal.",
+            "We offer secure payment options, including VISA, Mastercard, and Paypal for your convenience.",
+            "We accept a variety of payment methods, such as VISA, Mastercard, and Paypal.",
+            "While we appreciate creativity, we can only accept standard payment methods like VISA, Mastercard, and Paypal.",
+            "We're here to assist you with professional payment options, including VISA, Mastercard, and Paypal.",
+            "Your payment experience is important to us. We accept VISA, Mastercard, and Paypal for a hassle-free transaction.",
+            "We strive to provide a simple and secure payment process. Choose from VISA, Mastercard, and Paypal.",
+            "Your satisfaction is our priority. Pay conveniently with VISA, Mastercard, or Paypal.",
+            "We make payment easy for you. Select from trusted options like VISA, Mastercard, and Paypal."
+        ]
+      },
+      {
+        "tag": "faculty_information",
+        "patterns": ["Who is the instructor?", "Tell me about the faculty", "Who teaches this class?"],
+        "responses": ["The instructor for this class is Professor Karam Girase sir (Computers) and Shailendra Girase (Maths) and Other Teachers.","For every Subject we have seperate teachers"]
+      },
+      {
+        "tag": "office_hours",
+        "patterns": ["When are the office hours?", "Tell me about the office hours", "Can I know the instructor's office hours?"],
+        "responses": ["The office hours for the instructor are Morning 8 am to Evening 7 pm and Office time Morning 8 am to Evening 8 pm."]
+      },
+      {
+        "tag": "class_location",
+        "patterns": ["Where is the class located?", "Tell me the class location", "Location of classes","where is class"],
+        "responses": ["The class is located : Avinash Apartment,Balram Nagar, Nashik, Maharashtra 422207 [ 2RFM+9W Nashik, Maharashtra ]."]
+      },
+      {
+        "tag": "class_support",
+        "patterns": ["How can I get class support?", "Is there a helpline number?", "What's the support email?"],
+        "responses": ["For class support, you can contact xyz@gmail.com."]
+      },
+      {
+        "tag": "contact_details",
+        "patterns": ["How can I reach the instructor?", "What are the contact details?", "Is there an email to contact?"],
+        "responses": ["You can reach the instructor at xyz@gmail.com Or you can fill this form xyz."]
+      }
+    ]
+  }

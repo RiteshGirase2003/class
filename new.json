@@ -1,0 +1,30 @@
+{
+    "intents": [
+      {
+        "tag": "faculty_information",
+        "patterns": ["Who is the instructor?", "Tell me about the faculty", "Who teaches this class?"],
+        "responses": ["The instructor for this class is Professor Karam Girase sir (Computers) and Shailendra Girase (Maths) and Other Teachers.","For every Subject we have seperate teachers"]
+      },
+      {
+        "tag": "office_hours",
+        "patterns": ["When are the office hours?", "Tell me about the office hours", "Can I know the instructor's office hours?"],
+        "responses": ["The office hours for the instructor are Morning 8 am to Evening 7 pm and Office time Morning 8 am to Evening 8 pm."]
+      },
+      {
+        "tag": "class_location",
+        "patterns": ["Where is the class located?", "Tell me the class location", "Location of classes","where is class"],
+        "responses": ["The class is located : Avinash Apartment,Balram Nagar, Nashik, Maharashtra 422207 [ 2RFM+9W Nashik, Maharashtra ]."]
+      },
+      {
+        "tag": "class_support",
+        "patterns": ["How can I get class support?", "Is there a helpline number?", "What's the support email?"],
+        "responses": ["For class support, you can contact xyz@gmail.com."]
+      },
+      {
+        "tag": "contact_details",
+        "patterns": ["How can I reach the instructor?", "What are the contact details?", "Is there an email to contact?"],
+        "responses": ["You can reach the instructor at xyz@gmail.com Or you can fill this form xyz."]
+      }
+    ]
+  }
+  
